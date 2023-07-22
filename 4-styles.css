@@ -1,0 +1,158 @@
+
+/* ... Previous CSS styles ... */
+
+/* Our results Section */
+.our-results {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.our-results .section-title {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.our-results .result-card {
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.our-results .result-card img {
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.our-results .result-card h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.our-results .result-card p {
+    color: #666;
+}
+/* ... Previous CSS styles ... */
+
+/* Form Section */
+.form-section {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px;
+    animation: fade-in 1s ease;
+}
+
+.form-section .section-title {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    animation: slide-up 0.8s ease;
+}
+
+.form-group label {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #FF6565;
+    outline: none;
+}
+
+.form-group textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+.submit-btn {
+    background-color: #FF6565;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #E64545;
+    opacity: 0.9;
+}
+
+@keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slide-up {
+    from { transform: translateY(20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+/* ... Previous CSS styles ... */
+
+/* Footer Section */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+.footer-social {
+    margin-top: 20px;
+}
+
+.footer-social a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer-social img {
+    width: 30px;
+    height: 30px;
+}
+
+/* ... Remaining CSS styles ... */
+

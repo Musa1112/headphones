@@ -1,20 +1,20 @@
 /* ... Previous CSS styles ... */
 
-/* What we do Section */
-.what-we-do {
+/* Our results Section */
+.our-results {
     max-width: 1000px;
     margin: 0 auto;
     padding: 50px;
 }
 
-.section-title {
+.our-results .section-title {
     text-align: center;
     font-size: 24px;
     color: #333;
     margin-bottom: 30px;
 }
 
-.service-card {
+.our-results .result-card {
     background-color: #f8f8f8;
     border-radius: 5px;
     padding: 20px;
@@ -22,20 +22,20 @@
     margin-bottom: 20px;
 }
 
-.service-card img {
+.our-results .result-card img {
     max-width: 200px;
     height: auto;
     display: block;
     margin: 0 auto 20px;
 }
 
-.service-card h3 {
+.our-results .result-card h3 {
     font-size: 20px;
     color: #333;
     margin-bottom: 10px;
 }
 
-.service-card p {
+.our-results .result-card p {
     color: #666;
 }
 
