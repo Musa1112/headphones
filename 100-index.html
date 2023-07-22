@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>My Web Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <!-- Navigation Menu -->
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- Hero Section -->
+        <div class="hero">
+            <img src="pentagone.png" alt="Pentagon" class="pentagon">
+            <img src="logo_headphones.png" alt="Headphones Logo" class="logo">
+            <h1 class="hero-title">Welcome to My Web Page</h1>
+            <p class="hero-subtitle">Discover a World of Knowledge</p>
+            <a href="#" class="hero-btn">Learn More</a>
+        </div>
+    </header>
+
+    <!-- What we do Section -->
+    <section class="what-we-do">
+        <h2 class="section-title">What We Do...</h2>
+        <div class="service-card">
+            <img src="service1.jpg" alt="Service 1">
+            <h3>Service 1</h3>
+            <p>Explore various subjects and enhance your knowledge.</p>
+        </div>
+        <div class="service-card">
+            <img src="service2.jpg" alt="Service 2">
+            <h3>Service 2</h3>
+            <p>Improve your skills with expert guidance and practical exercises.</p>
+        </div>
+        <div class="service-card">
+            <img src="service3.jpg" alt="Service 3">
+            <h3>Service 3</h3>
+            <p>Stay inspired and motivated with creative challenges and projects.</p>
+        </div>
+    </section>
+
+    <!-- Our results Section -->
+    <section class="our-results">
+        <h2 class="section-title">Our Results</h2>
+        <div class="result-card">
+            <div class="pentagon"></div>
+            <h3>Result 1</h3>
+            <p>Benefit from our proven methodologies and achieve outstanding outcomes.</p>
+        </div>
+        <div class="result-card">
+            <div class="pentagon"></div>
+            <h3>Result 2</h3>
+            <p>Experience significant growth and success through our personalized approach.</p>
+        </div>
+        <div class="result-card">
+            <div class="pentagon"></div>
+            <h3>Result 3</h3>
+            <p>Engage in rewarding experiences and make a positive impact on your life.</p>
+        </div>
+    </section>
+        <div class="result-card">
+            <img src="result3.jpg" alt="Result 3">
+            <h3>
+                <div class="bbbsy">
+                    <h1 class="gggty">
+                        <span class="triping"> last semester result</span>
+                    </h1>
+                </div>
+
+            <p>Engage in rewarding experiences and make a positive impact on your life.</p>
+        </div>
+    </section>
+
+    <!-- Form Section -->
+    <section class="form-section">
+        <h2 class="section-title">Contact Us</h2>
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <!-- ... Previous code ... -->
+
+    <script>
+        // Add a fade-in animation to the contact form on page load
+        window.onload = function() {
+            const contactForm = document.querySelector('.contact-form');
+            contactForm.style.opacity = 0;
+            setTimeout(() => {
+                contactForm.style.opacity = 1;
+            }, 300);
+        };
+    </script>
+     <!-- Footer Section -->
+     <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2023 My Web Page. All rights reserved.</p>
+            <div class="footer-social">
+                <a href="#"><img src="facebook.png" width="80" height80="Facebook"></a>
+                <a href="#"><img src="twitter.png" width="80" height80 alt="Twitter"></a>
+                <a href="#"><img src="instagram.png" width="80" height80 alt="Instagram"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
