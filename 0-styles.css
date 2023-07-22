@@ -1,0 +1,28 @@
+/* ... Previous CSS styles ... */
+
+/* New styles for header images */
+.pentagon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    width: 80px;
+    height: 80px;
+}
+
+.hero {
+    background-image: url('headphones_hero_1.jpg');
+    background-size: cover;
+    padding: 50px;
+    text-align: center;
+    position: relative;
+}
+
+/* ... Remaining CSS styles ... */
