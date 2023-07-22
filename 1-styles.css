@@ -1,0 +1,42 @@
+/* ... Previous CSS styles ... */
+
+/* What we do Section */
+.what-we-do {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.service-card {
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.service-card img {
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.service-card h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    color: #666;
+}
+
+/* ... Remaining CSS styles ... */
